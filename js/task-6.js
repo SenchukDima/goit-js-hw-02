@@ -16,8 +16,6 @@ let total = 0;
       for(var i = 0; i < array.length; i++){
           total += array[i];
           }};
-          arraySum(numbers);
-    alert(`Общая сумма чисел равна ${total}`);
+  arraySum(numbers);
+  alert(`Общая сумма чисел равна ${total}`);
   };
-  console.log(numbers);
-  console.log(total);
