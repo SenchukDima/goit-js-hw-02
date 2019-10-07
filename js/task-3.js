@@ -1,5 +1,5 @@
 'use strict'
-
+	
 function findLongestWord(string) {
     let splitedString = string.split(" ");
     let longestWord = 0;

@@ -2,9 +2,8 @@
 
 function checkForSpam(str) {
   let lowerCaseStr = str.toLowerCase();
-  const result = lowerCaseStr.includes('spam') || lowerCaseStr.includes('sale')?
-        true : false;
-  return result; 
+  return lowerCaseStr.includes('spam') || lowerCaseStr.includes('sale');
+  
 }
 
 
