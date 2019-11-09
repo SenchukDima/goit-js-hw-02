@@ -2,13 +2,13 @@
 	
 function findLongestWord(string) {
     let splitedString = string.split(" ");
-    let longestWord = 0;
     let result;
+    let longestWord = 0;
     for (let i = 0; i < splitedString.length ; i++) {
         if (longestWord < splitedString[i].length) {
             longestWord = splitedString[i].length;
-            result = splitedString[i];
-        }
+            result = splitedString[i]
+        } 
     }
     return result;
 }

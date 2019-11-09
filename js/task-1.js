@@ -2,7 +2,7 @@
 
 function logItems(array) {
     for (let item of array) {
-console.log(`${array.indexOf(item)} - ${item}`);   
+console.log(`${array.indexOf(item)+1} - ${item}`);   
     }
 };
 
